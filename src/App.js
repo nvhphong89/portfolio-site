@@ -9,8 +9,9 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Title" scroll>
+          <Header className="header-color" title= {<strong><Link style={{fontSize: "30px",color: "white", opacity:".8", textDecoration: "none"}} to="/">Phong Nguyen</Link></strong>} scroll>
             <Navigation>
+              <span className="pointing"><i className="far fa-hand-point-right"></i></span>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
