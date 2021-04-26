@@ -8,7 +8,7 @@ class Landing extends Component{
                 <Grid className='landing-grid'>
                     <Cell col={12}>
                         <img 
-                        src="./avatar1.png"
+                        src="./assets/avatar1.png"
                         alt="avatar"
                         className="avatar-icon"
                         />
@@ -16,7 +16,7 @@ class Landing extends Component{
                             <h1>Web Developer</h1>
                             <hr/>
                             <p>
-                                HTML/CSS | React | NodeJS | Express | MSSQL | MongoDB
+                                HTML/CSS | React | NodeJS | Express | MSSQL | MongoDB | AWS
                             </p>
                             <div className="social-links">
                                 {/* linkedIn link */}

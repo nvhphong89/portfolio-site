@@ -8,9 +8,9 @@ class Contact extends Component{
             <Grid className="contact-grid">
                 <Cell col={6}>
                     <h2>Phong Nguyen</h2>
-                    <img src="./contact-image.JPG" alt="contactImage" style={{height:"250px", borderRadius:"10px"}}/>
+                    <img src="./assets/contact-image.JPG" alt="contactImage" style={{height:"250px", borderRadius:"10px"}}/>
                     <p>
-                        lorem ipsum dolor sit amet, consectetur
+                    I am available anytime for quick discussion. Please feel free to contact me, I will be happy to answer your call. Thank you!
                     </p>
                 </Cell>
                 <Cell col={6}>
@@ -19,13 +19,13 @@ class Contact extends Component{
                     <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize:"30px", fontFamily:"Anton"}}><i class="fas fa-mobile-alt"></i>    (705) 977-1804</ListItemContent>
+                                <ListItemContent style={{fontSize:"20px", fontFamily:"Anton"}}><i className="fas fa-mobile-alt"></i>    (705) 977-1804</ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize:"30px", fontFamily:"Anton"}}><i class="far fa-envelope"></i>nvh.phong.89@gmail.com</ListItemContent>
+                                <ListItemContent style={{fontSize:"20px", fontFamily:"Anton"}}><i className="far fa-envelope"></i>nvh.phong.89@gmail.com</ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize:"30px", fontFamily:"Anton"}}><i class="fab fa-skype"></i> nvhphong89</ListItemContent>
+                                <ListItemContent style={{fontSize:"20px", fontFamily:"Anton"}}><i className="fab fa-skype"></i> nvhphong89</ListItemContent>
                             </ListItem>
                         </List>
                     </div>
