@@ -10,7 +10,7 @@ let timelineElements = [
         "- Develop responsive webpages using React",
         "- Produce technical documentation for knowledge transfers"],
         buttonText: "Visit Company Website",
-        date: "from 04/2020 - present",
+        date: "04/2020 - present",
         url: "https://mybeeapp.io/",
         icon: "work"
     },
@@ -20,7 +20,7 @@ let timelineElements = [
         location:"Centennial College - Toronto",
         description: ["Software Engineering Technology", "GPA: 4.2"],
         buttonText: "",
-        date: "from 01/2019 - 04/2021",
+        date: "01/2019 - 04/2021",
         icon: "school"
     },
     {
@@ -34,7 +34,7 @@ let timelineElements = [
         "- Crafted Test Exit Reports, reports to analyze weekly operation statuses, Execution Plan Report for weekly software releases",
         "- Wrote automation scripts using VB to automate daily tasks"],
         buttonText: "",
-        date: "from 09/2019 - 04/2020",
+        date: "09/2019 - 04/2020",
         icon: "work"
     },
     {
@@ -49,7 +49,7 @@ let timelineElements = [
         "- Wrote comprehensive Stored Procedures using T-SQL to generate reports serving business purposes for Deputy Director",
         "- Wrote automated scripts in Python to conduct final check on Pre-Production environment"],
         buttonText: "",
-        date: "from 01/2015 - 08/2018",
+        date: "01/2015 - 08/2018",
         icon: "work"
     },
     {
@@ -58,7 +58,7 @@ let timelineElements = [
         location:"Posts & Telecommunications Institute of Technology - Ho Chi Minh, Vietnam",
         description: ["Electronics & Telecommunications", "GPA: 6.8/10"],
         buttonText: "",
-        date: "from 10/2007 - 04/2012",
+        date: "10/2007 - 04/2012",
         icon: "school"
     },
 ];
