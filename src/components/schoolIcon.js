@@ -5,7 +5,7 @@ const SchoolIcon = () => (
     <img
       className="img_logo"
       src="./assets/school.png"
-      style={{height: "auto", maxHeight: "100%", maxWidth: "100%"}}
+      style={{height: "auto", maxWidth: "100%"}}
     />
   </div>
 );

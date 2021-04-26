@@ -7,7 +7,7 @@ import SchoolIcon from './schoolIcon';
 import "react-vertical-timeline-component/style.min.css";
 class Resume extends Component{
     render() {
-        let workIconStyle = {background:"#40e0d0"};
+        let workIconStyle = {background:"#0774d3"};
         let schoolIconStyle = {background:"#ff8c00"};
         return (
         <div>
@@ -20,20 +20,20 @@ class Resume extends Component{
                         Phong Nguyen
                     </h2>
                     <h4 style={{color: "grey"}}>Web Developer</h4>
-                    <hr style={{borderTop:"3px solid #ff8c00", width:"50%"}}/>
+                    <hr style={{borderTop:"3px solid #000428", width:"50%"}}/>
                     <p>5 years in IT industry, 1 year experience as Web Developer, well-versed in numerous programming tools and languages. Proficient in both backend and frontend development.</p>
-                    <hr style={{borderTop:"3px solid #ff8c00", width:"50%"}}/>
+                    <hr style={{borderTop:"3px solid #000428", width:"50%"}}/>
                     <h5>Address</h5>
                     <p>64-2451 Bridletown Circle, Scarborough, ON M1W2Y4</p>
                     <h5>Phone</h5>
                     <p>(705) 977-1804</p>
                     <h5>Email</h5>
                     <p>nvh.phong.89@gmail.com</p>
-                    <hr style={{borderTop:"3px solid #ff8c00", width:"50%"}}/>
+                    <hr style={{borderTop:"3px solid #000428", width:"50%"}}/>
                 </Cell>
                 <Cell col={8} className="resume-right-column">
                     <div>
-                        <Button href="https://www.dropbox.com/scl/fi/9u9l68r2qtarsfzh7mb1k/Phong-Nguyen-Resume.docx?dl=0&rlkey=esaynoislyvkauozowm4f4una" raised accent>Download Resume</Button>
+                        <Button target="_blank" href="https://www.dropbox.com/scl/fi/9u9l68r2qtarsfzh7mb1k/Phong-Nguyen-Resume.docx?dl=0&rlkey=esaynoislyvkauozowm4f4una" raised accent>Download Resume</Button>
                         <h1>My Experience</h1>
                         <VerticalTimeline>
                             {timelineElements.map(element=>{
